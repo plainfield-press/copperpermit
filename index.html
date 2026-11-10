@@ -73,34 +73,4 @@ footer{padding:2rem 0 3rem;font-size:.82rem;color:var(--mute)}
 <h2>Built for suppliers and adjacent trades</h2><p style="max-width:60ch">The permit holder may already have the permitted work. These records can help identify installation activity and contractor businesses, but they are not a promise of an open job, a sale or an opportunity to contact a homeowner.</p>
 </div>
 
-<section class="cta"><div class="wrap">
-<div class="price">$49<small>/month</small></div>
-<div>Proposed daily email digest of Austin electrical permits. Price test only; no billing is active.</div>
-<button class="buy" id="buyBtn">Interested at $49/month?</button>
-<div class="fine">Demand test only. Clicking records interest, not a purchase. No payment is collected.</div>
-</div></section>
-
-<div class="wrap"><footer>CopperPermit reads public records and points you to them. Filings belong to their issuing offices; confirm details against the official record before quoting. CopperPermit is independent and is not affiliated with the City of Austin or any other permit-data service.</footer></div>
-
-<div class="modal" id="modal"><div class="mcard">
-<h3>We're not taking payment yet</h3>
-<p>This is a demand test for a proposed $49/month email digest. It is not available to buy yet. You can join the interest list through our current contact mailbox.</p>
-<p>Nothing is charged on this page.</p>
-<a class="mail" id="waitLink" href="mailto:permitpipeline@mail.tab.bot?subject=CopperPermit%20early%20access">Join the early-access list</a>
-<button class="dismiss" id="dismiss">Back to the page</button>
-</div></div>
-
-<script data-goatcounter="https://permitpipeline.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-<script>
-var m=document.getElementById('modal');
-document.getElementById('buyBtn').addEventListener('click',function(){
-  if(window.goatcounter&&window.goatcounter.count){window.goatcounter.count({path:'buy-intent',title:'Buy intent',event:true});}
-  m.classList.add('open');
-});
-document.getElementById('waitLink').addEventListener('click',function(){
-  if(window.goatcounter&&window.goatcounter.count){window.goatcounter.count({path:'waitlist-click',title:'Waitlist click',event:true});}
-});
-document.getElementById('dismiss').addEventListener('click',function(){m.classList.remove('open');});
-</script>
-</body>
-</html>
+<section class="cta"><div class="wrap"><h2 style="color:inherit">Public feed, not a paid email service</h2><p>The public digest is available at the source links above. A $49/month email digest is only a proposed test price. Customer email delivery is not live. No payment, subscription or order is available here.</p><p><a style="color:inherit" href="mailto:permitpipeline@mail.tab.bot?subject=CopperPermit%20interest">Email a question or express interest</a></p><p>Opening your email app does not send a message or start a service.</p></div></section><footer class="wrap">Permit issuance does not prove work is completed or a job remains open. No sales or customer outcomes are claimed.</footer><script data-goatcounter="https://permitpipeline.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>
